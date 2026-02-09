@@ -1,5 +1,5 @@
 # Run until reach Max Speed, World 6x6, Grass 800%, Carrots 400%, Trees 400%
-# Also unlock hats, print, water, imports and lists
+# Also unlock hats, print, water, fertilizer, vars, functions, imports and lists
 
 clear()
 while True:
