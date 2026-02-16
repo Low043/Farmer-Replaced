@@ -1,5 +1,4 @@
 # Run until unlock trees (replace bushes), vars, functions and imports
-# Also upgrade speed and plants as soon as possible
 
 clear()
 while True:

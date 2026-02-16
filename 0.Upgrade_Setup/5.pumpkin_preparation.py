@@ -1,3 +1,5 @@
+# Run until reach MAX speed, 6x6 world and unlock fertilizer
+# Grass: 800%, Carrots: 400%, Trees: 400%, Pumpkins: 200%
 from simple_snake import *
 
 def plant_carrot():
@@ -9,7 +11,7 @@ def handle(x, y):
 	if can_harvest():
 		harvest()
 	
-	if x >= ROW_LENGTH // 2:
+	if y >= ROW_LENGTH // 2:
 		return plant_carrot()
 	if x % 2 != y % 2:
 		return plant(Entities.Tree)
