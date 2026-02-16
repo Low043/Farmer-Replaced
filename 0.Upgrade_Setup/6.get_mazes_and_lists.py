@@ -1,5 +1,5 @@
 # Run when get 400 carrots, unlock 8x8 world and restart
-# Upgrade everything and unlock mazes
+# Upgrade everything and unlock mazes and lists
 from simple_pumpkin import *
 from simple_snake import *
 
