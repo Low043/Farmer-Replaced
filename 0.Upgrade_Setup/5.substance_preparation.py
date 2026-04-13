@@ -1,5 +1,5 @@
-# Run until reach MAX speed, 6x6 world and unlock fertilizer
-# Grass: 800%, Carrots: 400%, Trees: 400%, Pumpkins: 200%
+# Run until reach MAX speed, 6x6 world and unlock fertilizer and pumpkins
+# Grass: 800%, Carrots: 400%, Trees: 400%
 from simple_snake import *
 
 def plant_carrot():

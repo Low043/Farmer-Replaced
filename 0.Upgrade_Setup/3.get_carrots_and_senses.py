@@ -5,7 +5,7 @@ while True:
 			if can_harvest():
 				harvest()
 			
-			if x % 2 == y % 2:
+			if x % 2 != y % 2:
 				plant(Entities.Bush)
 			
 			if x == 2:
@@ -22,7 +22,7 @@ while True:
 			if can_harvest():
 				harvest()
 			
-			if x % 2 == y % 2:
+			if x % 2 != y % 2:
 				plant(Entities.Bush)
 			
 			if x == 2:

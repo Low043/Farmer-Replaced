@@ -1,4 +1,5 @@
 # Run until unlock trees (replace bushes), vars, functions and imports
+# Upgrade speed after unlock trees. Also upgrade grass, trees and carrots
 
 clear()
 while True:

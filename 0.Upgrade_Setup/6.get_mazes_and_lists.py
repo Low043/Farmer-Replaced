@@ -1,5 +1,5 @@
-# Run when get 400 carrots, unlock 8x8 world and restart
-# Upgrade everything and unlock mazes and lists
+# Unlock 8x8 world, lists and mazes
+# Upgrade fertilizer, trees and pumpkins
 from simple_pumpkin import *
 from simple_snake import *
 
@@ -12,10 +12,12 @@ def handle(x, y):
 	if can_harvest():
 		harvest()
 	
-	if y >= 6:
+	if y >= get_world_size() - 2:
 		return plant_carrot()
 	if x % 2 != y % 2:
-		return plant(Entities.Tree)
+		plant(Entities.Tree)
+		if num_items(Items.Fertilizer) > 0:
+			use_item(Items.Fertilizer)
 
 clear()
 while True:

@@ -10,13 +10,11 @@ def handle_pumpkin():
 
 	if not can_harvest():
 		plant(Entities.Pumpkin)
-		if num_items(Items.Fertilizer) > 0:
-			use_item(Items.Fertilizer)
 		pumpkin_ready = False
 
 def pumpkin_wrapper(default_task):
 	def wrapper(x, y):
-		if x < 6 and y < 6:
+		if x < 4 and y < 4:
 			return handle_pumpkin()
 		return default_task(x, y)
 	return wrapper

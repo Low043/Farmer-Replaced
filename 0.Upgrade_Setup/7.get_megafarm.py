@@ -1,4 +1,5 @@
-# Farm some weird substance before running this script
+# Farm 300 weird substance before running this script
+# Unlock megafarm
 directions = [North, East, South, West]
 
 # Maze summoning
